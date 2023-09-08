@@ -39,19 +39,19 @@
     ],
     "quadrants": [
       {
-        "name": "Languages & Frameworks",
+        "name": "App Building",
         "description": "These include development languages, as well as more low-level development frameworks, which are useful for implementing custom software of all kinds."
       },
       {
-        "name": "Tools",
+        "name": "CHT App Features",
         "description": "These can be components, such as databases, software development tools, such as versions control systems; or more generic categories of tools, such as the notion of polyglot persistence."
       },
       {
-        "name": "Techniques",
+        "name": "Data Use",
         "description": "These include elements of a software development process, such as experience design; and ways of structuring software, such as microservices."
       },
       {
-        "name": "Platforms",
+        "name": "Deployment Management",
         "description": "Things that we build software on top of such as mobile technologies like Android, virtual platforms like the JVM, or generic kinds of platforms like hybrid clouds."
       }
     ],
@@ -69,14 +69,14 @@
         "description": "The Assess ring are things to look at closely, but not necessarily trial yet - unless you think they would be a particularly good fit for you. Typically, blips in the Assess ring are things that we think are interesting and worth keeping an eye on."
       },
       {
-        "name": "Stop",
-        "description": "The Stop ring is for things that, even though they are accepted in the industry, we haven't had a good experience with. Therefore we are calling them out to warn you that you may run into trouble with them as well. Sometimes it means we think they're irredeemably flawed, or just being misused. We do place things in the Stop ring that we wish the industry wouldn't use."
+        "name": "Not Recommended",
+        "description": "The Not Recommended ring is for things that, even though they are accepted in the industry, we haven't had a good experience with. Therefore we are calling them out to warn you that you may run into trouble with them as well. Sometimes it means we think they're irredeemably flawed, or just being misused. We do place things in the Stop ring that we wish the industry wouldn't use."
       }
     ],
     "sourcecodeLink": {
       "href": "https://github.com/medic/tech-radar",
-      "name": "CHT Technology Radar for Contributors on GitHub",
-      "description": "Contributions and source code of the CHT Technology Radar for Contributors are on GitHub. Inspired by AOE Tech Radar."
+      "name": "CHT Technology Radar for Implementers on GitHub",
+      "description": "Contributions and source code of the CHT Technology Radar for Implementers are on GitHub. Inspired by AOE Tech Radar."
     }
   }
 }

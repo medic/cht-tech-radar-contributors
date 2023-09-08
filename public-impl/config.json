@@ -1,16 +1,16 @@
 {
-  "tags": ["data","database","framework","infrastructure","language", "product-development", "technique", "app-development", "tool", "monitoring", "alerting", "dashboard"],
+  "tags": ["app-building", "data-use", "deployment-management", "cht-app-features", "monitoring", "alerting"],
   "quadrants": {
-    "languages-and-frameworks": "Languages & Frameworks",
-    "methods-and-patterns": "Techniques",
-    "platforms-and-aoe-services": "Platforms",
-    "tools": "Tools"
+    "languages-and-frameworks": "App Building",
+    "methods-and-patterns": "Data Use",
+    "platforms-and-aoe-services": "Deployment Management",
+    "tools": "CHT App Features"
   },
   "rings": [
     "adopt",
     "trial",
     "assess",
-    "stop"
+    "not-recommended"
   ],
   "showEmptyRings": false,
   "homepageContent": "both",
