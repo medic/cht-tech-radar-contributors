@@ -166,6 +166,11 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
+    <loc>/cht-tech-radar-contributors/tools/sonar.html</loc>
+    <lastmod>2023-09-11</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
     <loc>/cht-tech-radar-contributors/tools/superset.html</loc>
     <lastmod>2023-09-11</lastmod>
     <changefreq>weekly</changefreq>
