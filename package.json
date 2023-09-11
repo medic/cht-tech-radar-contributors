@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "homepage": "https://docs.communityhealthtoolkit.org",
   "scripts": {
     "build": "npx aoe_technology_radar-buildRadar",
     "postbuild": "npm run generateJson",
