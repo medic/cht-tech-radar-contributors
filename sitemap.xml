@@ -1,182 +1,182 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>/build/index.html</loc>
+    <loc>/cht-tech-radar/index.html</loc>
     <lastmod>2023-09-11</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>/build/platforms-and-aoe-services/android-dev.html</loc>
+    <loc>/cht-tech-radar/platforms-and-aoe-services/android-dev.html</loc>
     <lastmod>2023-09-11</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>/build/languages-and-frameworks/angular.html</loc>
+    <loc>/cht-tech-radar/languages-and-frameworks/angular.html</loc>
     <lastmod>2023-09-11</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>/build/languages-and-frameworks/angularjs.html</loc>
+    <loc>/cht-tech-radar/languages-and-frameworks/angularjs.html</loc>
     <lastmod>2023-09-11</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>/build/platforms-and-aoe-services/aws.html</loc>
+    <loc>/cht-tech-radar/platforms-and-aoe-services/aws.html</loc>
     <lastmod>2023-09-11</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>/build/languages-and-frameworks/bash.html</loc>
+    <loc>/cht-tech-radar/languages-and-frameworks/bash.html</loc>
     <lastmod>2023-09-11</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>/build/methods-and-patterns/continuous-discovery.html</loc>
+    <loc>/cht-tech-radar/methods-and-patterns/continuous-discovery.html</loc>
     <lastmod>2023-09-11</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>/build/tools/couch2pg.html</loc>
+    <loc>/cht-tech-radar/tools/couch2pg.html</loc>
     <lastmod>2023-09-11</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>/build/tools/couchdb.html</loc>
+    <loc>/cht-tech-radar/tools/couchdb.html</loc>
     <lastmod>2023-09-11</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>/build/languages-and-frameworks/css.html</loc>
+    <loc>/cht-tech-radar/languages-and-frameworks/css.html</loc>
     <lastmod>2023-09-11</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>/build/tools/dbt.html</loc>
+    <loc>/cht-tech-radar/tools/dbt.html</loc>
     <lastmod>2023-09-11</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>/build/tools/docker.html</loc>
+    <loc>/cht-tech-radar/tools/docker.html</loc>
     <lastmod>2023-09-11</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>/build/tools/dot.html</loc>
+    <loc>/cht-tech-radar/tools/dot.html</loc>
     <lastmod>2023-09-11</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>/build/languages-and-frameworks/enketo.html</loc>
+    <loc>/cht-tech-radar/languages-and-frameworks/enketo.html</loc>
     <lastmod>2023-09-11</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>/build/tools/git.html</loc>
+    <loc>/cht-tech-radar/tools/git.html</loc>
     <lastmod>2023-09-11</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>/build/tools/github-actions.html</loc>
+    <loc>/cht-tech-radar/tools/github-actions.html</loc>
     <lastmod>2023-09-11</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>/build/tools/grafana.html</loc>
+    <loc>/cht-tech-radar/tools/grafana.html</loc>
     <lastmod>2023-09-11</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>/build/tools/grunt.html</loc>
+    <loc>/cht-tech-radar/tools/grunt.html</loc>
     <lastmod>2023-09-11</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>/build/tools/haproxy.html</loc>
+    <loc>/cht-tech-radar/tools/haproxy.html</loc>
     <lastmod>2023-09-11</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>/build/languages-and-frameworks/javascript.html</loc>
+    <loc>/cht-tech-radar/languages-and-frameworks/javascript.html</loc>
     <lastmod>2023-09-11</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>/build/tools/k3d.html</loc>
+    <loc>/cht-tech-radar/tools/k3d.html</loc>
     <lastmod>2023-09-11</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>/build/tools/klipfolio.html</loc>
+    <loc>/cht-tech-radar/tools/klipfolio.html</loc>
     <lastmod>2023-09-11</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>/build/tools/kubernetes.html</loc>
+    <loc>/cht-tech-radar/tools/kubernetes.html</loc>
     <lastmod>2023-09-11</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>/build/tools/nginx.html</loc>
+    <loc>/cht-tech-radar/tools/nginx.html</loc>
     <lastmod>2023-09-11</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>/build/languages-and-frameworks/nodejs.html</loc>
+    <loc>/cht-tech-radar/languages-and-frameworks/nodejs.html</loc>
     <lastmod>2023-09-11</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>/build/tools/npm.html</loc>
+    <loc>/cht-tech-radar/tools/npm.html</loc>
     <lastmod>2023-09-11</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>/build/tools/postgres.html</loc>
+    <loc>/cht-tech-radar/tools/postgres.html</loc>
     <lastmod>2023-09-11</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>/build/languages-and-frameworks/pouchdb.html</loc>
+    <loc>/cht-tech-radar/languages-and-frameworks/pouchdb.html</loc>
     <lastmod>2023-09-11</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>/build/tools/prometheus.html</loc>
+    <loc>/cht-tech-radar/tools/prometheus.html</loc>
     <lastmod>2023-09-11</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>/build/languages-and-frameworks/protractor.html</loc>
+    <loc>/cht-tech-radar/languages-and-frameworks/protractor.html</loc>
     <lastmod>2023-09-11</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>/build/methods-and-patterns/pwa.html</loc>
+    <loc>/cht-tech-radar/methods-and-patterns/pwa.html</loc>
     <lastmod>2023-09-11</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>/build/languages-and-frameworks/python.html</loc>
+    <loc>/cht-tech-radar/languages-and-frameworks/python.html</loc>
     <lastmod>2023-09-11</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>/build/methods-and-patterns/quality-assistance.html</loc>
+    <loc>/cht-tech-radar/methods-and-patterns/quality-assistance.html</loc>
     <lastmod>2023-09-11</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>/build/tools/superset.html</loc>
+    <loc>/cht-tech-radar/tools/superset.html</loc>
     <lastmod>2023-09-11</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>/build/languages-and-frameworks/typescript.html</loc>
+    <loc>/cht-tech-radar/languages-and-frameworks/typescript.html</loc>
     <lastmod>2023-09-11</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>/build/languages-and-frameworks/webdriverio.html</loc>
+    <loc>/cht-tech-radar/languages-and-frameworks/webdriverio.html</loc>
     <lastmod>2023-09-11</lastmod>
     <changefreq>weekly</changefreq>
   </url>
