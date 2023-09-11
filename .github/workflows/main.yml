@@ -53,5 +53,4 @@ jobs:
         # id: deployment
         # uses: actions/deploy-pages@v2
         run:
-          cd ..
           npm run deploy
