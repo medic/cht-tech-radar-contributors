@@ -46,7 +46,7 @@ npm run generateJson
 ```
 
 You can do this while the server is running.
-You can find the newly created rd.json in "/build/rd.json".
+You can find the newly created rd.json in `/build/rd.json`.
 
 ## Deployment to GitHub Pages
 
