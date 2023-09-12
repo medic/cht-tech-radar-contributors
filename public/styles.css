@@ -2,20 +2,19 @@
  * Define your custom CSS Styles here.
  */
  :root {
-   --color-gray-dark: #38464D;
-   --color-gray-dark-alt: #4C606A;
-   --color-gray-normal: #607681;
-   --color-gray-light: #E5E8E9;
+   --color-gray-dark: #38464D!important;
+   --color-gray-dark-alt: #4C606A!important;
+   --color-gray-normal: #607681!important;
+   --color-gray-light: #E5E8E9!important;
    --color-gray-dark-alt2: #434d53;
    --color-gray-light-alt: #adadad;
 
-   --color-white: #fff;
-   --color-green: #4A9940;
-   --color-orange: #E35726;
-   --color-blue: #535EAA;
-   --color-marine: #278489;
-   --color-red: #D74A39;
-   --color-brand: #38464D;
+   --color-green: #4A9940!important;
+   --color-orange: #E35726!important;
+   --color-blue: #535EAA!important;
+   --color-marine: #278489!important;
+   --color-red: #D74A39!important;
+   --color-brand: #38464D!important;
    --until-sm: 30em;
    --until-md: 48em;
    --until-lg: 61.875em;
