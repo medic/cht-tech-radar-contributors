@@ -34,13 +34,8 @@ jobs:
         id: pages
         uses: actions/configure-pages@v3
 
-      - run: npm ci
-      - run: PUBLIC_URL=/cht-tech-radar REACT_APP_RADAR_NAME="CHT Technology Radar for Contributors" npm run build:static
-
-#      - name: Upload artifact
-#        uses: actions/upload-pages-artifact@v2
-#        with:
-#          path: ./build
+      - run: npm i
+      - run: PUBLIC_URL=/cht-tech-radar-contributors REACT_APP_RADAR_NAME="CHT Technology Radar for Contributors" npm run build:static
 
   deploy:
     environment:
@@ -50,7 +45,5 @@ jobs:
     needs: build
     steps:
       - name: Deploy to GitHub Pages
-        # id: deployment
-        # uses: actions/deploy-pages@v2
         run:
           npm run deploy

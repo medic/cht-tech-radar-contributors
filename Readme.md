@@ -19,10 +19,10 @@ tags: [data, dashboards]
 ## Development
 
 ### Host the application under a sub path
-To host the application under a sub path, set the environment variable `PUBLIC_URL`, e.g. "/techradar".
+To host the application under a sub path, set the environment variable `PUBLIC_URL`, e.g. "/cht-tech-radar".
 The default is `/`.
 
-> For local development I recommend using `/build` and use this for the following steps. 
+> For local development you can use `/build` and use this for the following steps. 
 
 ### Build the radar
 ```
@@ -30,7 +30,7 @@ npm i
 PUBLIC_URL=/build REACT_APP_RADAR_NAME="CHT Technology Radar for Contributors" npm run start
 ```
 
-Then open here: http://localhost:8080/build
+Then open the Tech Radar here: http://localhost:8080/build
 
 ### Build the radar with static files
 ```
@@ -38,7 +38,7 @@ npm i
 PUBLIC_URL=/build REACT_APP_RADAR_NAME="CHT Technology Radar for Contributors" npm run start:static
 ```
 
-Then open here: http://localhost:8080/build
+Then open the Tech Radar here: http://localhost:8080/build
 
 ### Regenerate the json file based on your changes on md files
 ```
@@ -46,7 +46,19 @@ npm run generateJson
 ```
 
 You can do this while the server is running.
-You can find the newly created rd.json in "/build/rd.json". 
+You can find the newly created rd.json in "/build/rd.json".
+
+## Deployment to GitHub Pages
+
+### Generate the radar with static files
+```
+PUBLIC_URL=/cht-tech-radar-contributors REACT_APP_RADAR_NAME="CHT Technology Radar for Contributors" npm run build:static
+```
+
+### Push the changes to GitHub Pages
+```
+npm run deploy
+```
 
 # Note
 The CHT Tech Radars are built starting from the [AOE Tech Radar content](https://www.aoe.com/techradar/index.html).
