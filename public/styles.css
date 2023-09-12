@@ -1,16 +1,48 @@
 /*
  * Define your custom CSS Styles here.
  */
- .root {
+ :root {
    --color-gray-dark: #38464D;
    --color-gray-dark-alt: #4C606A;
    --color-gray-normal: #607681;
    --color-gray-light: #E5E8E9;
+   --color-gray-dark-alt2: #434d53;
+   --color-gray-light-alt: #adadad;
 
+   --color-white: #fff;
    --color-green: #4A9940;
    --color-orange: #E35726;
    --color-blue: #535EAA;
    --color-marine: #278489;
    --color-red: #D74A39;
    --color-brand: #38464D;
+   --until-sm: 30em;
+   --until-md: 48em;
+   --until-lg: 61.875em;
+   --until-xl: 75em;
+}
+
+// @custom-media --until-sm (max-width: 30em);
+// @custom-media --until-md (max-width: 48em);
+// @custom-media --until-lg (max-width: 61.875em);
+// @custom-media --until-xl (max-width: 75em);
+
+body {
+  background: var(--color-gray-dark);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "DIN";
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.5;
+
+  & h1 {
+    color: blue;
   }
+}
+
+#root {
+  min-height: 100vh;
+  overflow: hidden;
+}
