@@ -45,6 +45,6 @@ jobs:
     needs: build
     steps:
       - name: Deploy to GitHub Pages
-        working-directory: ./
+        working-directory: /home/runner/work/cht-tech-radar-contributors
         run:
           npm run deploy
