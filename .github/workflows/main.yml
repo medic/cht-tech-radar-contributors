@@ -35,8 +35,7 @@ jobs:
         uses: actions/configure-pages@v3
 
       - run: npm i
-      - run: npm run build
-#      - run: PUBLIC_URL=/cht-tech-radar-contributors REACT_APP_RADAR_NAME="CHT Technology Radar for Contributors" npm run build:static
+      - run: PUBLIC_URL=/cht-tech-radar-contributors REACT_APP_RADAR_NAME="CHT Technology Radar for Contributors" npm run build:static
 
   deploy:
     environment:
