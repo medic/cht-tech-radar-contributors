@@ -1,9 +1,48 @@
 # CHT Technology Radar for Contributors
-
 This is the location of CHT Technology Radar for Contributors content.
 
-## Content Guidelines
+## Create a new Technology Radar release
+For a new Technology Radar release, create a folder of the release date (YYYY-MM-DD) under `./radar`.
 
+### Maintaining content
+The items are written in Markdown (`.md`) format.
+
+Each file has a [front-matter](https://github.com/jxson/front-matter) header where the attributes of the item are listed:
+
+```
+---
+title:      "JavaScript"
+ring:       adopt
+quadrant:   languages-and-frameworks
+---
+
+Text goes here. You can use **markdown** here.
+```
+
+Following front-matter attributes are possible:
+
+- **title**: Name of the Item
+- **quadrant**: Quadrant. One of `languages-and-frameworks`,
+  `methods-and-patterns`, `platforms-and-aoe-services`, `tools`
+- **ring**: Ring section in radar. One of `trial`, `assess`, `adopt`, `hold`
+- **info**: (optional) A short textual description of the item (visible in
+  overview pages)
+- **featured**: (optional, default "true") If you set this to `false`, the item
+  will not be visible in the radar quadrants but still be available in the overview.
+
+The name of the .md file acts as item identifier and may overwrite items with
+the same name from older releases.
+
+If an item is overwritten in a new release, the attributes from the new item are
+merged with the old ones, and a new history entry is created for that item.
+
+You can integrate images in your markdown. Put the image files in your public folder and reference them
+
+```
+![nice image](/images/nice-image.png)
+```
+
+### Content Guidelines
 New blips should be tagged. The following tags are currently established:
 
 * data
@@ -15,6 +54,9 @@ e.g. use like this:
 ```md
 tags: [data, dashboards]
 ```
+
+## Customize the radar
+> Further instructions on how to customize the Technical Radar can be found in the [AOEpeople/aoe_technology_radar](https://github.com/AOEpeople/aoe_technology_radar) repository.
 
 ## Development
 
@@ -60,7 +102,6 @@ PUBLIC_URL=/cht-tech-radar-contributors REACT_APP_RADAR_NAME="CHT Technology Rad
 npm run deploy
 ```
 
-# Note
-The CHT Tech Radars are built starting from the [AOE Tech Radar content](https://www.aoe.com/techradar/index.html).
-If you want to build your own Tech Radar you may want to have a look at [AOE Tech Radar GitHub repository](https://github.com/AOEpeople/aoe_technology_radar).
-
+## Note
+The CHT Technology Radars are built starting from the [AOE Tech Radar content](https://www.aoe.com/techradar/index.html).
+If you want to build your own Technical Radar you may want to have a look at [AOE Tech Radar GitHub repository](https://github.com/AOEpeople/aoe_technology_radar).
