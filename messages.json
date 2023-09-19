@@ -17,7 +17,13 @@
       {
         "headline": "What is the Technology Radar",
         "values": [
-          "The Tech Radar is an overview of different technologies - from languages, frameworks, tools and techniques to platforms - that we consider \"new or mentionable\". The radar therefore doesn't provide an overview of all established technologies - but it focuses on items that have recently gained in importance or changed. Items that have been on the radar in previous versions are not listed on the homepage, but they are still available in the complete overview and in the search."
+          "The CHT Technology Radar for Contributors provides an useful view for developers to know what languages/tools/platforms/techniques to use while contributing to CHT tools themselves."
+        ]
+      },
+      {
+        "headline": "Audience",
+        "values": [
+          "Contributors, developers, engineers"
         ]
       },
       {
