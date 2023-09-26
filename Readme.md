@@ -27,8 +27,8 @@ Following front-matter attributes are possible:
 
 - **title**: Name of the Item
 - **quadrant**: Quadrant. One of `languages-and-frameworks` (for `Languages and Frameworks` quadrant),
-  `methods-and-patterns`(for `Techniques` quadrant), `platforms-and-aoe-services`
-- (for `Platforms` quadrant), `tools` (for `Tools` quadrant)
+  `methods-and-patterns`(for `Techniques` quadrant), `platforms-and-aoe-services` 
+(for `Platforms` quadrant), `tools` (for `Tools` quadrant)
 - **ring**: Ring section in radar. One of `trial`, `assess`, `adopt`, `stop`
 - **info**: (optional) A short textual description of the item (visible in
   overview pages)
