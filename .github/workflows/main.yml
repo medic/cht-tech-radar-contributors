@@ -46,13 +46,13 @@ jobs:
     steps:
       - name: See what's in the folder
         if: ${{ github.ref == 'refs/heads/main' }}
-        working-directory: /home/runner/work/cht-tech-radar-contributors/cht-tech-radar-contributors
+        working-directory: /home/runner/work/cht-tech-radar-contributors/cht-tech-radar-contributors/build
         run:
           ls -a
 
       - name: Deploy to GitHub Pages - Main branch only
         if: ${{ github.ref == 'refs/heads/main' }}
-        working-directory: /home/runner/work/cht-tech-radar-contributors
+        working-directory: /home/runner/work/cht-tech-radar-contributors/cht-tech-radar-contributors/build
         run:
           npm run deploy
 
