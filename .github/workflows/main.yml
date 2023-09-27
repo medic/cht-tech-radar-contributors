@@ -48,7 +48,7 @@ jobs:
 
       - name: Deploy to GitHub Pages - Main branch only
         if: ${{ github.ref == 'refs/heads/main' }}
-        working-directory: /home/runner/work/
+        working-directory: /home/runner/work/cht-tech-radar-contributors
         run:
           npm run deploy
 
