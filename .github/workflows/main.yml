@@ -46,7 +46,7 @@ jobs:
     steps:
       - name: See what's in the folder
         if: ${{ github.ref == 'refs/heads/main' }}
-        working-directory: /
+        working-directory: /home
         run:
           ls -a
 
