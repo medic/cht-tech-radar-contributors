@@ -46,7 +46,7 @@ jobs:
     steps:
       - name: See what's in the folder
         if: ${{ github.ref == 'refs/heads/main' }}
-        working-directory: /home
+        working-directory: /home/runner/work/cht-tech-radar-contributors/cht-tech-radar-contributors
         run:
           ls -a
 
