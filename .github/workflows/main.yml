@@ -21,7 +21,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
@@ -37,29 +37,6 @@ jobs:
         uses: actions/configure-pages@v3
         if: ${{ github.ref == 'refs/heads/main' }}
 
-      - run: |
-          git config --global user.email "andra@medic.org"
-          git config --global user.name "Andra Blaj"
       - run: npm i
       - run: PUBLIC_URL=/cht-tech-radar-contributors REACT_APP_RADAR_NAME="CHT Technology Radar for Contributors" npm run build:static
       - run: npm run deploy
-
-#  deploy:
-#    environment:
-#      name: github-pages
-#      url: ${{ steps.deployment.outputs.page_url }}
-#    runs-on: ubuntu-latest
-#    needs: build
-#    steps:
-#      - name: See what's in the folder
-#        if: ${{ github.ref == 'refs/heads/main' }}
-#        working-directory: /home/runner/work/cht-tech-radar-contributors/cht-tech-radar-contributors/build
-#        run:
-#          ls -a
-#
-#      - name: Deploy to GitHub Pages - Main branch only
-#        if: ${{ github.ref == 'refs/heads/main' }}
-#        working-directory: /home/runner/work/cht-tech-radar-contributors/cht-tech-radar-contributors/build
-#        run:
-#          npm run deploy
-
