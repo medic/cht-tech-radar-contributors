@@ -5,5 +5,5 @@ quadrant:   methods-and-patterns
 tags:       [product-development]
 ---
 
-
-<a href="https://docs.communityhealthtoolkit.org/contribute/medic/product-development-process/quality-assistance/">Documentation</a>
+[Quality Assistance](https://docs.communityhealthtoolkit.org/contribute/medic/product-development-process/quality-assistance/) is the process
+used for ensuring the quality of the CHT.
