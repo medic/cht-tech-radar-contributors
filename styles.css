@@ -9,14 +9,7 @@
    --color-green: #4A9940!important;
    --color-orange: #E4AE1D!important;
    --color-blue: #535EAA!important;
-   --color-marine: #D74A39!important;
+   --color-marine: #E35726!important;
    --color-red: #D74A39!important;
    --color-brand: #38464D!important;
-}
-
-.branding__logo img {
-  max-width:280px;
-  max-height:160px;
-  width: auto;
-  height: auto;
 }
