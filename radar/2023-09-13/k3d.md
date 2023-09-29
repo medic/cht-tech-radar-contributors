@@ -2,7 +2,7 @@
 title:      "k3d"
 ring:       adopt
 quadrant:   tools
-tags:       [infrastructure]
+tags:       [infrastructure, devops]
 ---
 
 <a href="https://k3d.io/">k3d</a> is a lightweight wrapper to run k3s (Rancher Lab’s minimal Kubernetes distribution) in docker.

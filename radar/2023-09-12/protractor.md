@@ -2,7 +2,7 @@
 title:      "Protractor"
 ring:       stop
 quadrant:   languages-and-frameworks
-tags:       [framework]
+tags:       [quality]
 ---
 
 [Protractor](https://www.protractortest.org/#/) is an end-to-end test framework for Angular and AngularJS applications. 

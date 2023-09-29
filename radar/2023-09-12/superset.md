@@ -5,4 +5,6 @@ quadrant:   tools
 tags:       [dashboard, analytics]
 ---
 
-Open source product for configurable dashboards, used for health care analytics.
+[Superset](https://superset.apache.org/) is an open-source data exploration and visualization platform.
+
+In the context of the CHT, Superset is used for health care analytics.

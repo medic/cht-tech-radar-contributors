@@ -1,5 +1,5 @@
 {
-  "tags": ["data","database","framework","infrastructure","language", "product-development", "technique", "app-development", "tool", "monitoring", "alerting", "dashboard", "devops", "ci/cd", "quality"],
+  "tags": ["data","database","framework","infrastructure", "product-development", "technique", "app-development", "tool", "monitoring", "alerting", "dashboard", "devops", "ci/cd", "quality", "coding"],
   "quadrants": {
     "languages-and-frameworks": "Languages & Frameworks",
     "methods-and-patterns": "Techniques",

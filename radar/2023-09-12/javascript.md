@@ -2,7 +2,7 @@
 title:      "JavaScript"
 ring:       adopt
 quadrant:   languages-and-frameworks
-tags:       [language]
+tags:       [coding]
 ---
 
-Primary programming language used everywhere in the CHT.
+[JavaScript](https://www.javascript.com/) is the primary programming language used in the CHT.
