@@ -4,5 +4,8 @@ ring:       adopt
 quadrant:   tools
 tags:       [infrastructure]
 ---
+<a href="https://www.docker.com/">Docker</a> is currently the most-used solution for creating and managing container-based infrastructures and deployments.
 
-Used extensively for containerizing CHT products.
+Docker is a platform to build container images, distribute them and run them as an isolated process (using Linux kernel cgroups, network namespaces and custom mounts).
+
+It is used extensively for containerizing CHT products.
