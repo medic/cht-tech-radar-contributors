@@ -5,4 +5,4 @@ quadrant:   tools
 tags:       [infrastructure]
 ---
 
-An orchestration tool which may be suitable for self-hosting. Under investigation.
+k3d is an orchestration tool which may be suitable for self-hosting. Under investigation.

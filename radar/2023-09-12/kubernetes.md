@@ -5,4 +5,5 @@ quadrant:   tools
 tags:       [infrastructure]
 ---
 
-Only needed for Medic hosting right now.
+Kubernetes is only needed for Medic hosting right now.
+

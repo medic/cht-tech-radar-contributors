@@ -5,4 +5,4 @@ quadrant:   languages-and-frameworks
 tags:       [framework]
 ---
 
-JavaScript library for rendering xforms as HTML with CSS and JS.
+[Enketo](https://enketo.org/) is a 100% free and open-source JavaScript library used for rendering xforms as HTML with CSS and JS.

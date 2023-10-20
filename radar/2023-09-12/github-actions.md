@@ -5,4 +5,4 @@ quadrant:   tools
 tags:       [infrastructure]
 ---
 
-Used extensively for CI across CHT products including testing and releasing.
+[GitHub Actions](https://github.com/features/actions) is used extensively for Continuous Integration (CI) across CHT products including testing and releasing.
