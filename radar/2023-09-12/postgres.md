@@ -5,4 +5,4 @@ quadrant:   tools
 tags:       [database]
 ---
 
-Primarily used as a data warehouse for analytics queries.
+[Postgres](https://www.postgresql.org/) is primarily used as a data warehouse for analytics queries.

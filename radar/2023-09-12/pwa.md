@@ -5,4 +5,7 @@ quadrant:   methods-and-patterns
 tags:       [technique]
 ---
 
-Followed for CHT webapp to allow offline first capability.
+A progressive web application (PWA), or progressive web app, is a type of application software delivered through the web, built using common web technologies including HTML, CSS, and JavaScript. 
+It is intended to work on any platform with a standards-compliant browser, including desktop and mobile devices.
+
+The PWA is followed for CHT webapp to allow [offline first capability](https://docs.communityhealthtoolkit.org/core/overview/offline-first/).

@@ -5,4 +5,6 @@ quadrant:   tools
 tags:       [interoperability]
 ---
 
-Tool to enable interoperability between CHT and other information systems.
+[OpenHIM](https://openhim.org/)- Open Health Information Mediator - is a middleware component designed to ease interoperability between disparate information systems. It provides secure communications and data governance as well as support for routing, orchestrating and translating requests as they flow between systems.
+
+In the CHT context, it enables interoperability between the CHT and other information systems.
