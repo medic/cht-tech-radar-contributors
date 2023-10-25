@@ -5,4 +5,6 @@ quadrant:   tools
 tags:       [tool]
 ---
 
-JavaScript package repository used widely for CHT products.
+[npm](https://www.npmjs.com/) is a library and registry for JavaScript software packages.
+ 
+It is used widely for CHT products.

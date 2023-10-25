@@ -5,4 +5,4 @@ quadrant:   tools
 tags:       [tool]
 ---
 
-Primary content version system.
+[Git](https://git-scm.com/) is a free and open-source distributed version control system. 

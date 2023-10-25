@@ -5,4 +5,4 @@ quadrant:   tools
 tags:       [monitoring, alerting]
 ---
 
-Being evaluated for CHT Watchdog.
+Grafana is being evaluated for CHT Watchdog.

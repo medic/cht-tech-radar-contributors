@@ -5,4 +5,4 @@ quadrant:   platforms-and-aoe-services
 tags:       [infrastructure]
 ---
 
-Cloud provider used for Medic hosted services.
+[AWS (Amazon Web Services)](https://aws.amazon.com/) is a cloud provider used for Medic hosted services.
