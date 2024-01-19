@@ -62,10 +62,10 @@ tags: [data, dashboards]
 You can update the rings and the quadrants in the `public/config.json` file. If you update the names of the rings and quadrants,
 you will need to update the technologies .md files accordingly.
 
-The text on the "How to use the CHT Technology Radar for Contributors" page can be uopdated in the `public/messages.json` file.
+The text on the "How to use the CHT Technology Radar for Contributors" page can be updated in the `public/messages.json` file.
 
 ### Customize the radar
-> Further instructions on how to customize the Technical Radar can be found in the [AOEpeople/aoe_technology_radar](https://github.com/AOEpeople/aoe_technology_radar) repository.
+> Further instructions on how to customize the Technical Radar can be found in the [medic/cht-tech-radar-core](https://github.com/medic/cht-tech-radar-core) repository.
 
 ## Development
 
