@@ -3,6 +3,8 @@ This is the location of CHT Technology Radar for Contributors content.
 
 If you are looking for the content of the CHT Technology Radar for Implementers, you can find it [here](https://github.com/medic/cht-tech-radar-implementers). 
 
+This Tech Radar is built by using the [CHT Technology Radar Core](https://github.com/medic/cht-tech-radar-core).
+
 ## Contribute to the Technical Radar
 
 ### Create a new Technology Radar release
@@ -117,4 +119,4 @@ npm run deploy
 
 ## Note
 The CHT Technology Radars are built starting from the [AOE Tech Radar content](https://www.aoe.com/techradar/index.html).
-If you want to build your own Technical Radar you may want to have a look at [AOE Tech Radar GitHub repository](https://github.com/AOEpeople/aoe_technology_radar).
+If you want to build your own Technical Radar you may want to have a look at the [AOE Tech Radar GitHub repository](https://github.com/AOEpeople/aoe_technology_radar).
