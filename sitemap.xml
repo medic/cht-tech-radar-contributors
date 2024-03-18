@@ -16,6 +16,11 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
+    <loc>/cht-tech-radar-contributors/tools/android-studio.html</loc>
+    <lastmod>2024-03-18</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
     <loc>/cht-tech-radar-contributors/languages-and-frameworks/angular.html</loc>
     <lastmod>2024-03-18</lastmod>
     <changefreq>weekly</changefreq>
@@ -101,6 +106,11 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
+    <loc>/cht-tech-radar-contributors/tools/gradle.html</loc>
+    <lastmod>2024-03-18</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
     <loc>/cht-tech-radar-contributors/tools/grafana.html</loc>
     <lastmod>2024-03-18</lastmod>
     <changefreq>weekly</changefreq>
@@ -117,6 +127,11 @@
   </url>
   <url>
     <loc>/cht-tech-radar-contributors/platforms-and-aoe-services/helm.html</loc>
+    <lastmod>2024-03-18</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>/cht-tech-radar-contributors/languages-and-frameworks/java.html</loc>
     <lastmod>2024-03-18</lastmod>
     <changefreq>weekly</changefreq>
   </url>
@@ -152,6 +167,11 @@
   </url>
   <url>
     <loc>/cht-tech-radar-contributors/languages-and-frameworks/lua.html</loc>
+    <lastmod>2024-03-18</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>/cht-tech-radar-contributors/tools/make.html</loc>
     <lastmod>2024-03-18</lastmod>
     <changefreq>weekly</changefreq>
   </url>
