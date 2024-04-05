@@ -32,16 +32,19 @@ jobs:
         with:
           node-version: "lts/*"
 
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v3
+        if: ${{ github.ref == 'refs/heads/main' }}
+
       - run: npm i
       - run: PUBLIC_URL=/cht-tech-radar-contributors REACT_APP_RADAR_NAME="CHT Technology Radar for Contributors" npm run build:static
-      - name: Deploy to gh-pages
-        if: ${{ github.ref == 'refs/heads/main' }}
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.DEPLOY_TO_GITHUB_PAGES}}
-          external_repository: medic/medic.github.io
-          publish_dir: ./build
-          user_name: medic-ci
-          user_email: medic-ci@github
-          publish_branch: main
-
+      - name: Deploy
+        env:
+          EMAIL: medic-ci@github
+          NAME: medic-ci
+        run: |
+          git config --global user.email $EMAIL
+          git config --global user.name $NAME
+          git remote set-url origin https://$NAME:${{ secrets.DEPLOY_TO_GITHUB_PAGES }}@github.com/medic/cht-tech-radar-contributors.git
+          npm run deploy
