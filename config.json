@@ -2,6 +2,16 @@
   "basePath": "/cht-tech-radar-contributors",
   "baseUrl": "https://docs.communityhealthtoolkit.org/cht-tech-radar-contributors",
   "editUrl": "https://github.dev/medic/cht-tech-radar-contributors/blob/main/radar/{release}/{id}.md",
+  "colors": {
+    "foreground": "#fff",
+    "background": "#38464D",
+    "highlight": "#7d878d",
+    "content": "#fff",
+    "text": "#575757",
+    "link": "#029df7",
+    "border": "rgba(255, 255, 255, 0.1)",
+    "tag": "rgba(255, 255, 255, 0.1)"
+  },
   "quadrants": [
     {
       "id": "languages-and-frameworks",
@@ -42,24 +52,24 @@
       "title": "Trial",
       "description": "The Trial ring is for tools ready for use but only partially proven as those in the Adopt ring. You should use these on a trial basis to decide whether they should be part of your toolkit. Others may already be using these items in production, likely as early adopters of the tools.",
       "color": "#E4AE1D",
-      "radius": 0.5,
-      "strokeWidth": 5
+      "radius": 0.69,
+      "strokeWidth": 3
     },
     {
       "id": "assess",
       "title": "Assess",
       "description": "The Assess ring contains items to look at closely, but not necessarily trial yet - unless you think they would be a particularly good fit for you. Typically, items in the Assess ring are interesting and worth keeping an eye on.",
       "color": "#535EAA",
-      "radius": 0.5,
-      "strokeWidth": 5
+      "radius": 0.85,
+      "strokeWidth": 2
     },
     {
-      "id": "stop",
+      "id": "hold",
       "title": "Stop",
       "description": "The Stop (or Not Recommended) ring is for things we think implementers should avoid using or look for ways to move off of. These include items for which a better alternative is available, or where the item is found to not work correctly with the CHT.",
       "color": "#E35726",
-      "radius": 0.5,
-      "strokeWidth": 5
+      "radius": 1,
+      "strokeWidth": 0.75
     }
   ],
   "flags": {
