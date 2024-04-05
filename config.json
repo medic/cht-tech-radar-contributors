@@ -1,74 +1,113 @@
 {
-  "tags": ["data","database","framework","infrastructure", "product-development", "technique", "app-development", "tool", "monitoring", "alerting", "dashboard", "devops", "ci/cd", "quality", "coding", "documentation"],
-  "quadrants": {
-    "languages-and-frameworks": "Languages & Frameworks",
-    "methods-and-patterns": "Techniques",
-    "platforms-and-aoe-services": "Platforms",
-    "tools": "Tools"
-  },
-  "rings": [
-    "adopt",
-    "trial",
-    "assess",
-    "stop"
+  "basePath": "/cht-tech-radar-contributors",
+  "baseUrl": "https://docs.communityhealthtoolkit.org/cht-tech-radar-contributors",
+  "editUrl": "https://github.dev/medic/cht-tech-radar-contributors/blob/main/radar/{release}/{id}.md",
+  "quadrants": [
+    {
+      "id": "languages-and-frameworks",
+      "title": "Languages & Frameworks",
+      "description": "Include development languages and more low-level development frameworks, which help implement custom software of all kinds.",
+      "color": "#7092F5"
+    },
+    {
+      "id": "methods-and-patterns",
+      "title": "Techniques",
+      "description": "Include elements of a software development process, such as continuous integration, and ways of creating software, such as progressive web applications.",
+      "color": "#535EAA"
+    },
+    {
+      "id": "platforms-and-aoe-services",
+      "title": "Platforms",
+      "description": "There are things that we build software on top of, such as mobile technologies like Android or generic kinds of platforms like Amazon Web Services.",
+      "color": "#436D84"
+    },
+    {
+      "id": "tools",
+      "title": "Tools",
+      "description": "These can be components, like databases, software development tools, such as version control systems.",
+      "color": "#278489"
+    }
   ],
-  "showEmptyRings": false,
-  "homepageContent": "both",
-  "quadrantsMap": {
-    "languages-and-frameworks": {
-      "colour": "#7092F5",
-      "txtColour": "#444444",
-      "position": 1,
-      "description": "Include development languages and more low-level development frameworks, which help implement custom software of all kinds."
+  "rings": [
+    {
+      "id": "adopt",
+      "title": "Adopt",
+      "description": "The Adopt ring represents tools that you should seriously consider using. We don’t say you should use these for every project; one should only use a tool in an appropriate context. However, an item in the Adopt ring represents something where there’s no doubt it’s proven and mature for use with the CHT.",
+      "color": "#4A994",
+      "radius": 0.5,
+      "strokeWidth": 5
     },
-    "methods-and-patterns": {
-      "colour": "#535EAA",
-      "txtColour": "white",
-      "position": 2,
-      "description": "Include elements of a software development process, such as continuous integration, and ways of creating software, such as progressive web applications."
+    {
+      "id": "trial",
+      "title": "Trial",
+      "description": "The Trial ring is for tools ready for use but only partially proven as those in the Adopt ring. You should use these on a trial basis to decide whether they should be part of your toolkit. Others may already be using these items in production, likely as early adopters of the tools.",
+      "color": "#E4AE1D",
+      "radius": 0.5,
+      "strokeWidth": 5
     },
-    "platforms-and-aoe-services": {
-      "colour": "#436D84",
-      "txtColour": "#444444",
-      "position": 3,
-      "description": "There are things that we build software on top of, such as mobile technologies like Android or generic kinds of platforms like Amazon Web Services."
+    {
+      "id": "assess",
+      "title": "Assess",
+      "description": "The Assess ring contains items to look at closely, but not necessarily trial yet - unless you think they would be a particularly good fit for you. Typically, items in the Assess ring are interesting and worth keeping an eye on.",
+      "color": "#535EAA",
+      "radius": 0.5,
+      "strokeWidth": 5
     },
-    "tools": {
-      "colour": "#278489",
-      "txtColour": "white",
-      "position": 4,
-      "description": "These can be components, like databases, software development tools, such as version control systems."
+    {
+      "id": "stop",
+      "title": "Stop",
+      "description": "The Stop (or Not Recommended) ring is for things we think implementers should avoid using or look for ways to move off of. These include items for which a better alternative is available, or where the item is found to not work correctly with the CHT.",
+      "color": "#E35726",
+      "radius": 0.5,
+      "strokeWidth": 5
+    }
+  ],
+  "flags": {
+    "new": {
+      "color": "#D74A39",
+      "title": "New",
+      "titleShort": "N",
+      "description": "New in this version"
+    },
+    "changed": {
+      "color": "#535EAA",
+      "title": "Changed",
+      "titleShort": "C",
+      "description": "Recently changed"
+    },
+    "default": {
+      "description": "Unchanged"
     }
   },
-  "editLink": {
-    "radarLink": "https://github.com/medic/cht-tech-radar-contributors/tree/main/radar",
-    "title": "Edit"
-  },
-  "chartConfig": {
+  "chart": {
     "size": 800,
-    "scale": [
-      -16,
-      16
-    ],
-    "blipSize": 12,
-    "ringsAttributes": [
-      {
-        "radius": 8,
-        "arcWidth": 6
-      },
-      {
-        "radius": 11,
-        "arcWidth": 4
-      },
-      {
-        "radius": 14,
-        "arcWidth": 2
-      },
-      {
-        "radius": 16,
-        "arcWidth": 2
-      }
-    ]
+    "blipSize": 12
   },
-  "dateFormat": "MMMM YYYY"
+  "social": [
+    {
+      "href": "https://forum.communityhealthtoolkit.org/",
+      "icon": "todo"
+    },
+    {
+      "href": "https://github.com/medic",
+      "icon": "github"
+    }
+  ],
+  "imprint": "https://docs.google.com/document/d/1MaI1rgYMNyCZF2eEjBuvnBDoCYHDKlx4k_N5pkDiWu8/edit#heading=h.9sdb6g11dv40",
+  "labels": {
+    "title": "CHT Technology Radar for Contributors",
+    "imprint": "Legal Information",
+    "quadrant": "Quadrant",
+    "quadrantOverview": "Quadrant Overview",
+    "zoomIn": "Zoom in",
+    "filterByTag": "Filter by Tag",
+    "footer": "The Community Health Toolkit (CHT) is a project by a group of leading organizations who have come together to support the development of digital health initiatives in the hardest-to-reach areas. It provides a collection of open source technologies and open access design, technical, and implementer resources that help you build and deploy digital tools for community health. Together, we envision a world where healthcare is of the highest attainable quality, equitable, accessible, and delivered by people who are trusted in their communities.",
+    "notUpdated": "This item was not updated in last three versions of the Radar. Should it have appeared in one of the more recent editions, there is a good chance it remains pertinent. However, if the item dates back further, its relevance may have diminished and our current evaluation could vary. Regrettably, our capacity to consistently revisit items from past Radar editions is limited.",
+    "notFound": "404 - Page not found",
+    "pageAbout": "How to use the CHT Technology Radar for Contributors?",
+    "pageOverview": "Technologies Overview",
+    "pageSearch": "Search",
+    "searchPlaceholder": "What are you looking for?",
+    "metaDescription": "Stay at the forefront of software and trends with the CHT Technology Radar for Contributors. Explore insights on languages, frameworks, techniques, tools and more."
+  }
 }
