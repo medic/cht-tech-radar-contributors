@@ -40,3 +40,4 @@ jobs:
       - run: npm i
       - run: PUBLIC_URL=/cht-tech-radar-contributors REACT_APP_RADAR_NAME="CHT Technology Radar for Contributors" npm run build:static
       - run: npm run deploy
+
