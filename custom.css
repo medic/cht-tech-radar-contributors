@@ -1,2 +1,7 @@
 /* Use this file to optionally override global css styles and use with caution. */
 /* See README.md for hints and examples: https://github.com/medic/cht-tech-radar-core */
+h1,
+h2,
+h3 {
+  font-family: "Spartan";
+}

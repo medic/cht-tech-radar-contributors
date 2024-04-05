@@ -68,29 +68,19 @@ The default is `/`.
 
 ### Build the radar
 ```
-npm install
-PUBLIC_URL=/build REACT_APP_RADAR_NAME="CHT Technology Radar for Contributors" npm run start
+npm i
+npm run serve
 ```
 
-Then open the Tech Radar here: http://localhost:8080/build
+Then open the Tech Radar here: http://localhost:3000/cht-tech-radar-contributors
 
 ### Build the radar with static files
 ```
-npm install
-PUBLIC_URL=/build REACT_APP_RADAR_NAME="CHT Technology Radar for Contributors" npm run start:static
+npm i
+npm run build
 ```
 
-Then open the Tech Radar here: http://localhost:8080/build
-
-### Regenerate the json file based on your changes on md files
-```
-npm run generateJson
-```
-
-You can do this while the server is running.
-You can find the newly created rd.json in `/build/rd.json`.
-
-## Deployment to GitHub Pages
+## Deployment to GitHub Pages TODO
 At the moment, the automatic deployment to GitHub Pages via GitHub Actions upon merge to the `main` branch doesn't work. We are trying to find
 a solution to this problem via [this ticket](https://github.com/medic/cht-tech-radar-contributors/issues/3).
 
