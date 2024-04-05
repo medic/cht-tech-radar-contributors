@@ -39,12 +39,13 @@ jobs:
 
       - run: npm i
       - run: PUBLIC_URL=/cht-tech-radar-contributors REACT_APP_RADAR_NAME="CHT Technology Radar for Contributors" npm run build:static
-      - name: Deploy
-        env:
-          EMAIL: medic-ci@github
-          NAME: medic-ci
-        run: |
-          git config --global user.email $EMAIL
-          git config --global user.name $NAME
-          git remote set-url origin https://$NAME:${{ secrets.DEPOLY_TO_SITE }}@github.com/medic/cht-tech-radar-contributors.git
-          npm run deploy
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          publish_dir: ./build
+          personal_token: ${{ secrets.DEPOLY_TO_SITE}}
+          external_repository: medic/medic.github.io
+          user_name: medic-ci
+          user_email: medic-ci@github
+          publish_branch: main
+
