@@ -3,12 +3,12 @@
   "baseUrl": "https://docs.communityhealthtoolkit.org/cht-tech-radar-contributors",
   "editUrl": "https://github.dev/medic/cht-tech-radar-contributors/blob/main/radar/{release}/{id}.md",
   "colors": {
-    "foreground": "#fff",
+    "foreground": "#E5E8E9",
     "background": "#38464D",
     "highlight": "#7d878d",
-    "content": "#fff",
+    "content": "#E5E8E9",
     "text": "#575757",
-    "link": "#029df7",
+    "link": "#7d878d",
     "border": "rgba(255, 255, 255, 0.1)",
     "tag": "rgba(255, 255, 255, 0.1)"
   },
@@ -64,7 +64,7 @@
       "strokeWidth": 2
     },
     {
-      "id": "hold",
+      "id": "stop",
       "title": "Stop",
       "description": "The Stop (or Not Recommended) ring is for things we think implementers should avoid using or look for ways to move off of. These include items for which a better alternative is available, or where the item is found to not work correctly with the CHT.",
       "color": "#E35726",
