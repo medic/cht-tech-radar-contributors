@@ -33,7 +33,7 @@
       "id": "adopt",
       "title": "Adopt",
       "description": "The Adopt ring represents tools that you should seriously consider using. We don’t say you should use these for every project; one should only use a tool in an appropriate context. However, an item in the Adopt ring represents something where there’s no doubt it’s proven and mature for use with the CHT.",
-      "color": "#4A994",
+      "color": "#4A9940",
       "radius": 0.5,
       "strokeWidth": 5
     },
@@ -84,10 +84,6 @@
     "blipSize": 12
   },
   "social": [
-    {
-      "href": "https://forum.communityhealthtoolkit.org/",
-      "icon": "todo"
-    },
     {
       "href": "https://github.com/medic",
       "icon": "github"
