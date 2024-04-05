@@ -36,14 +36,14 @@ jobs:
         id: pages
         uses: actions/configure-pages@v3
         if: ${{ github.ref == 'refs/heads/main' }}
-        with:
-          personal_token: ${{ secrets.DEPOLY_TO_SITE}}
-          external_repository: medic/medic.github.io
-          publish_dir: ./public
-          user_name: medic-ci
-          user_email: medic-ci@github
-          publish_branch: main
 
       - run: npm i
       - run: PUBLIC_URL=/cht-tech-radar-contributors REACT_APP_RADAR_NAME="CHT Technology Radar for Contributors" npm run build:static
       - run: npm run deploy
+          with:
+            personal_token: ${{ secrets.DEPOLY_TO_SITE}}
+            external_repository: medic/medic.github.io
+            publish_dir: ./public
+            user_name: medic-ci
+            user_email: medic-ci@github
+            publish_branch: main
