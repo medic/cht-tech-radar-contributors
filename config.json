@@ -5,10 +5,10 @@
   "colors": {
     "foreground": "#E5E8E9",
     "background": "#38464D",
-    "highlight": "#278489",
+    "highlight": "#F58300",
     "content": "#E5E8E9",
     "text": "#575757",
-    "link": "#278489",
+    "link": "#F58300",
     "border": "rgba(255, 255, 255, 0.1)",
     "tag": "rgba(255, 255, 255, 0.1)"
   },

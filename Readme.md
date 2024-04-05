@@ -13,13 +13,14 @@ For a new Technology Radar release, create a folder of the release date (YYYY-MM
 ### Maintaining content
 The items are written in Markdown (`.md`) format.
 
-Each file has a [front-matter](https://github.com/jxson/front-matter) header where the attributes of the item are listed:
+Each file has a meta header where the attributes of the item are listed:
 
 ```
 ---
 title:      "JavaScript"
 ring:       adopt
 quadrant:   languages-and-frameworks
+tags: [frontend, coding]
 ---
 
 Text goes here. You can use **markdown** here.
@@ -32,9 +33,8 @@ Following front-matter attributes are possible:
   `methods-and-patterns`(for `Techniques` quadrant), `platforms-and-aoe-services` 
 (for `Platforms` quadrant), `tools` (for `Tools` quadrant)
 - **ring**: Ring section in radar. One of `trial`, `assess`, `adopt`, `stop`
-- **info**: (optional) A short textual description of the item (visible in
-  overview pages)
-- **featured**: (optional, default "true") If you set this to `false`, the item
+- **tags**: Optional tags for filtering.
+- **featured**: (Optional, default "true") If you set this to "false", the item
   will not be visible in the radar quadrants but still be available in the overview.
 
 The name of the .md file acts as item identifier and may overwrite items with
@@ -49,20 +49,11 @@ You can integrate images in your markdown. Put the image files in your public fo
 ![an image](/images/an-image.png)
 ```
 
-### Tags Guidelines
-New technologies should be tagged. Tags should be managed in the `public/config.json` file.
-
-The tags should be used in the .md files as follows:
-
-```md
-tags: [data, dashboards]
-```
-
 ### Content Guidelines
-You can update the rings and the quadrants in the `public/config.json` file. If you update the names of the rings and quadrants,
+You can update the rings and the quadrants in the `config.json` file. If you update the names of the rings and quadrants,
 you will need to update the technologies .md files accordingly.
 
-The text on the "How to use the CHT Technology Radar for Contributors" page can be updated in the `public/messages.json` file.
+The text on the "How to use the CHT Technology Radar for Contributors" page can be updated in the `about.md` file.
 
 ### Customize the radar
 > Further instructions on how to customize the Technical Radar can be found in the [medic/cht-tech-radar-core](https://github.com/medic/cht-tech-radar-core) repository.
