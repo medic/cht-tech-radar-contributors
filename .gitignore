@@ -10,3 +10,4 @@ techradar
 .techradar
 # bin
 src/rd.json
+.idea

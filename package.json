@@ -9,7 +9,7 @@
     "deploy": "gh-pages -d build"
   },
   "dependencies": {
-    "cht_technology_radar": "github:medic/cht-tech-radar-core#upgrade-to-v4"
+    "cht_technology_radar": "github:medic/cht-tech-radar-core#main"
   },
   "devDependencies": {
     "gh-pages": "^6.1.1"
