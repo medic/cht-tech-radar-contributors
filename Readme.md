@@ -80,7 +80,7 @@ npm i
 npm run build
 ```
 
-## Deployment to GitHub Pages TODO
+## TODO Deployment to GitHub Pages 
 At the moment, the automatic deployment to GitHub Pages via GitHub Actions upon merge to the `main` branch doesn't work. We are trying to find
 a solution to this problem via [this ticket](https://github.com/medic/cht-tech-radar-contributors/issues/3).
 
@@ -90,7 +90,7 @@ First, ensure that you are performing the next steps on the `main` branch.
 
 ### Generate the radar with static files
 ```
-PUBLIC_URL=/cht-tech-radar-contributors REACT_APP_RADAR_NAME="CHT Technology Radar for Contributors" npm run build:static
+npm run build
 ```
 
 ### Push the changes to GitHub Pages
