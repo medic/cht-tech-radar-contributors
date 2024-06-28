@@ -35,13 +35,12 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v3
-        with:
-          user_name: medic-ci
-          user_email: medic-ci@github
         if: ${{ github.ref == 'refs/heads/main' }}
 
       - run: npm i
       - run: PUBLIC_URL=/cht-tech-radar-contributors REACT_APP_RADAR_NAME="CHT Technology Radar for Contributors" npm run build:static
+      - run: git config --global user.email "medic-ci@github"
+      - run: git config --global user.name "medic-ci"
       - name: Deploy to GitHub Pages
         run: npm run deploy
 
