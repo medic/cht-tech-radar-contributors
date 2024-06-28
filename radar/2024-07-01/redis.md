@@ -1,7 +1,7 @@
 ---
 title:      "Redis"
 ring:       stop
-quadrant:   platform
+quadrant:   platforms-and-aoe-services
 tags:       [data]
 ---
 

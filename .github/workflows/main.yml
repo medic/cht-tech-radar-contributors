@@ -39,5 +39,14 @@ jobs:
 
       - run: npm i
       - run: PUBLIC_URL=/cht-tech-radar-contributors REACT_APP_RADAR_NAME="CHT Technology Radar for Contributors" npm run build:static
-      - run: npm run deploy
-      
+      - name: Deploy to GitHub Pages
+        env:
+          EMAIL: medic-ci@github
+          NAME: medic-ci
+        run: |
+          git config --global user.email $EMAIL
+          git config --global user.name $NAME
+          git remote set-url origin https://$NAME:${{ secrets.GH_SECRET }}@github.com/medic/cht-tech-radar-contributors.git
+          npm run deploy
+
+
