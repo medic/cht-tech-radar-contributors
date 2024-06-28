@@ -51,6 +51,11 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
+    <loc>/cht-tech-radar-contributors/methods-and-patterns/continuous-delivery.html</loc>
+    <lastmod>2024-06-28</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
     <loc>/cht-tech-radar-contributors/methods-and-patterns/continuous-discovery.html</loc>
     <lastmod>2024-06-28</lastmod>
     <changefreq>weekly</changefreq>
@@ -77,11 +82,6 @@
   </url>
   <url>
     <loc>/cht-tech-radar-contributors/tools/docker.html</loc>
-    <lastmod>2024-06-28</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>/cht-tech-radar-contributors/tools/dot.html</loc>
     <lastmod>2024-06-28</lastmod>
     <changefreq>weekly</changefreq>
   </url>
