@@ -38,7 +38,14 @@ jobs:
         if: ${{ github.ref == 'refs/heads/main' }}
 
       - run: npm i
-
-      - run: npm run serve
-      - run: npm run deploy
+      - name: Deploy to GitHub Pages
+        env:
+          EMAIL: medic-ci@github
+          NAME: medic-ci
+        run: |
+          git config --global user.email $EMAIL
+          git config --global user.name $NAME
+          git remote set-url origin https://$NAME:${{ secrets.GH_SECRET }}@github.com/medic/cht-tech-radar-contributors.git
+          npm run serve
+          npm run deploy
  
