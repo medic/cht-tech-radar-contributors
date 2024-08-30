@@ -38,6 +38,7 @@ jobs:
         if: ${{ github.ref == 'refs/heads/main' }}
 
       - run: npm i
+      - run: npm run serve
       - name: Deploy to GitHub Pages
         env:
           EMAIL: medic-ci@github
