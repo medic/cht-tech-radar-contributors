@@ -47,6 +47,5 @@ jobs:
           git config --global user.email $EMAIL
           git config --global user.name $NAME
           git remote set-url origin https://$NAME:${{ secrets.GH_SECRET }}@github.com/medic/cht-tech-radar-contributors.git
-          npm run serve
           npm run deploy
  
