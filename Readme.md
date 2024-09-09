@@ -1,9 +1,9 @@
 # CHT Technology Radar for Contributors
-This is the location of CHT Technology Radar for Contributors content.
+This is the repository of the CHT Technology Radar for Contributors content.
 
 If you are looking for the content of the CHT Technology Radar for Implementers, you can find it [in its dedicated GitHub repository](https://github.com/medic/cht-tech-radar-implementers). 
 
-This Tech Radar is built by using the [CHT Technology Radar Core](https://github.com/medic/cht-tech-radar-core).
+This Tech Radar is built by using the [CHT Technology Radar Core](https://github.com/medic/cht-tech-radar-core), which contains the skeleton app and the CHT look-and-feel styles. 
 
 ## Contribute to the Technical Radar
 
