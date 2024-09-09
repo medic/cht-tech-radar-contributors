@@ -80,6 +80,19 @@ npm install
 npm run build
 ```
 
+## TODO Deployment to GitHub Pages from local 
+First, ensure that you are performing the next steps on the `main` branch. 
+
+### Generate the radar with static files
+```
+npm run build
+```
+
+### Push the changes to GitHub Pages
+```
+npm run deploy
+```
+
 ## Note
 The CHT Technology Radars are built starting from the [AOE Tech Radar content](https://www.aoe.com/techradar/index.html).
 If you want to build your own Technical Radar you may want to have a look at the [AOE Tech Radar GitHub repository](https://github.com/AOEpeople/aoe_technology_radar).
