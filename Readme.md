@@ -68,7 +68,7 @@ The default is `/`.
 
 ### Build the radar
 ```
-npm ci
+npm install
 npm run serve
 ```
 
@@ -76,7 +76,7 @@ Then open the Tech Radar here: http://localhost:3000/cht-tech-radar-contributors
 
 ### Build the radar with static files
 ```
-npm ci
+npm install
 npm run build
 ```
 
