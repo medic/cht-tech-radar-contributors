@@ -12,7 +12,7 @@ The CHT Technology Radar for Contributors provides an easy-to-grasp visual repre
 
 ### Audience
 
-Contributors, Developers, Engineers
+Contributors, Developers
 
 ### How it is created
 
@@ -20,9 +20,9 @@ The items in the technology radar are raised by the different contributors and t
 
 ### How should it be used
 
-The radar acts as an overview of technologies that we think everyone in the CHT Community should currently know about. Its goal is to act as a guide in the community when contributing to the CHT. We also hope that developers outside of CHT Community find the information in our technology overview inspirational.
+The radar acts as an overview of technologies that everyone in the CHT Community should currently know about. Its goal is to act as a guide in the community when contributing to the CHT. Developers outside of CHT Community should hopefully find the information in this technology overview inspirational.
 
-We group or categorize the items in 4 quadrants - (sometimes, when it's not 100% clear where a item belongs, we choose the best fit).
+The items are grouped or categorized in 4 quadrants - (sometimes, when it's not 100% clear where a item belongs, the best fit was chosen).
 
 #### The quadrants are:
 
