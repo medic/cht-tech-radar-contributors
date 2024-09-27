@@ -68,7 +68,7 @@ The default is `/`.
 
 ### Build the radar
 ```
-npm install
+npm ci
 npm run serve
 ```
 
@@ -76,21 +76,8 @@ Then open the Tech Radar here: http://localhost:3000/cht-tech-radar-contributors
 
 ### Build the radar with static files
 ```
-npm install
+npm ci
 npm run build
-```
-
-## TODO Deployment to GitHub Pages from local 
-First, ensure that you are performing the next steps on the `main` branch. 
-
-### Generate the radar with static files
-```
-npm run build
-```
-
-### Push the changes to GitHub Pages
-```
-npm run deploy
 ```
 
 ## Note
