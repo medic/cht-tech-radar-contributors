@@ -5,4 +5,4 @@ quadrant:   methods-and-patterns
 tags:       [product-development]
 ---
 
-[Continuous Discovery](https://docs.communityhealthtoolkit.org/contribute/medic/product-development-process/continuous-discovery-overview/) is the product development process used to build the CHT.
+Continuous Discovery is a product development process used by Medic to build new functionalities for the CHT.
