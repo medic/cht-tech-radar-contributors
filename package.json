@@ -8,6 +8,6 @@
     "serve": "techradar serve"
   },
   "dependencies": {
-    "cht_technology_radar": "github:medic/cht-tech-radar-core#1.2.0"
+    "cht_technology_radar": "github:medic/cht-tech-radar-core#1.3.0"
   }
 }
