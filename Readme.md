@@ -66,7 +66,10 @@ The default is `/`.
 
 > For local development you can use `/build` and use this for the following steps. 
 
+
 ### Build the radar
+Node.js >= 20 is required.
+
 ```
 npm ci
 npm run serve
