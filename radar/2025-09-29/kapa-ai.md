@@ -1,6 +1,6 @@
 ---
 title:      "kapa.ai Assistant"
-ring:       trial
+ring:       adopt
 quadrant:   tools
 tags:       [documentation, ai]
 ---
